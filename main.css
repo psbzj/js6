@@ -1,0 +1,29 @@
+body {
+    margin: 3rem;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+#intro, #test2 {
+    border-bottom:2px solid black;
+    display:grid;
+    align-items: center;
+    grid-template-columns:max-content max-content max-content 1fr 1fr min-content;
+    justify-content: center;
+    gap:2px;
+}
+
+.head {
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding:0 1rem;
+}
+
+#test2 {
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+
